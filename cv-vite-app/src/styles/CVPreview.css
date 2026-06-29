@@ -1,0 +1,108 @@
+.CVLivePreview {
+    flex-grow: 1;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.CVLivePreview>label {
+    display: flex;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    font-size: 1rem;
+    background-color: #009689;
+    color: white;
+    padding: 8px 16px;
+}
+
+.previewContainer {
+    display: flex;
+    margin-top: 20px;
+    padding: 16px 32px;
+}
+
+.rightSide {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    word-break: break-word;
+}
+
+.leftSide {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.1;
+    margin-right: 20px;
+}
+
+.leftSide ul {
+    padding-left: 0;
+    margin-top: 8px;
+    list-style-position: inside;
+}
+
+.leftSide ul li {
+    font-size: 0.85rem;
+    font-weight: 300;
+}
+
+.nameHeader {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.jobHeader {
+    font-weight: 200;
+    font-size: 1rem;
+    background-color: #E09101;
+    padding: 10px 16px;
+    border-radius: 24px;
+}
+
+.proSummaryText {
+    margin-top: 50px;
+    font-size: 0.85rem;
+    border-left: 3px solid #020202;
+    padding-left: 30px;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+.subHeader {
+    letter-spacing: 5px;
+}
+
+.experienceWrapper {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e4e4e4;
+    padding: 16px;
+    border-radius: 16px;
+    margin-bottom: 16px;
+}
+
+.jobTitle {
+    font-size: 1.05rem;
+    margin: 4px 0;
+    font-weight: 500;
+}
+
+.experiencesSection p {
+    font-size: 0.85rem;
+    margin: 8px 0;
+}
+
+.contactHeader {
+    letter-spacing: 5px;
+}
+
+.pfpDiv {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    border-radius: 100%;
+}
